@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
     date: new FormControl(null, [Validators.required]),
   });
 
-  constructor(private http: HttpClient, private zone: NgZone) {}
+  constructor() {}
 
   ngOnInit() {}
 
