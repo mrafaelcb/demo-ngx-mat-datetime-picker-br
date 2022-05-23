@@ -1,0 +1,16 @@
+<div class="page">
+  <h3>Demo</h3>
+  <h4>ngx-mat-datetime-picker Br</h4>
+  <div [formGroup]="formGroup">
+    <mat-form-field>
+      <input
+        matInput
+        [ngxMatDatetimePicker]="picker1"
+        placeholder="Choose a date"
+        formControlName="date"
+      />
+      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+      <ngx-mat-datetime-picker #picker1></ngx-mat-datetime-picker>
+    </mat-form-field>
+  </div>
+</div>
